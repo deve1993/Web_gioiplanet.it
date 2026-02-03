@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  /* Background - Neutro freddo */
+  --color-background: #f8fafc;
+  /* slate-50 */
+  --color-background-alt: #f1f5f9;
+  /* slate-100 */
+
+  /* Primary Blues - Più profondi */
+  --color-primary: #0284c7;
+  /* sky-600 - più saturo */
+  --color-primary-dark: #0369a1;
+  /* sky-700 */
+  --color-primary-light: #38bdf8;
+  /* sky-400 */
+  --color-primary-gradient: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%);
+
+  /* Grays - Slate family */
+  --color-accent: #94a3b8;
+  /* slate-400 */
+  --color-gray-accent: #e2e8f0;
+  /* slate-200 */
+  --color-gray-dark: #1e293b;
+  /* slate-800 */
+  --color-gray-darker: #0f172a;
+  /* slate-900 */
+
+  /* Text */
+  --color-text: #0f172a;
+  /* slate-900 */
+  --color-text-light: #64748b;
+  /* slate-500 */
+  --color-text-muted: #94a3b8;
+  /* slate-400 */
+  --color-white: #ffffff;
+
+  /* Status Colors */
+  --color-success: #22c55e;
+  --color-warning: #eab308;
+  --color-error: #ef4444;
+
+  /* Borders */
+  --color-border: #e2e8f0;
+  --color-divider: #cbd5e1;
+
+  /* Fonts */
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+
+  /* Font Sizes */
+  --text-h1: 3rem;
+  --text-h1-mobile: 2.25rem;
+  --text-h2: 2.25rem;
+  --text-h2-mobile: 1.75rem;
+  --text-body-large: 1.125rem;
+}
+
+:root {
+  --background: #f5f7fa;
+  --foreground: #4a5568;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans), sans-serif;
+}
